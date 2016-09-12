@@ -20,7 +20,7 @@ while True:  # This will keep looping until we break out.
         # Split this line into words.
         numbers = line.split()
 
-        if len(numbers) != 2:
+        if len(numbers) != 2: #Each line should have exactly 2 numbers in it
             break
 
     except:
